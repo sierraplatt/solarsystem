@@ -1,0 +1,80 @@
+[gd_scene load_steps=10 format=3 uid="uid://dxudx1ybpl17x"]
+
+[ext_resource type="Texture2D" uid="uid://dosl3yb31401f" path="res://—Pngtree—realistic sun illustration_9164511.png" id="1_cifeu"]
+[ext_resource type="Script" path="res://Rotate.gd" id="2_ki27h"]
+[ext_resource type="Texture2D" uid="uid://dr7gqkt0fhfrt" path="res://pngimg.com - earth_PNG39.png" id="3_rt57q"]
+[ext_resource type="Texture2D" uid="uid://bce6ethnv3xt4" path="res://Moon.G03.watermarked.2k.png" id="4_2i638"]
+[ext_resource type="Texture2D" uid="uid://c88h324yehgyy" path="res://10145465.png" id="5_34cve"]
+[ext_resource type="Texture2D" uid="uid://dv65lk5albl5k" path="res://Mercury.G03.watermarked.2k.png" id="6_iat8s"]
+[ext_resource type="Texture2D" uid="uid://c3uund6hwhbb2" path="res://Jupiter.G03.watermarked.2k.png" id="7_aehlh"]
+[ext_resource type="Texture2D" uid="uid://bkpoggcxonhys" path="res://Realistic Neptune Planet.G03.watermarked.2k.png" id="8_wacc4"]
+[ext_resource type="Texture2D" uid="uid://c5s6rq4xltyn5" path="res://space.jpeg" id="9_wn14j"]
+
+[node name="Sun" type="Sprite2D"]
+position = Vector2(511, 345)
+scale = Vector2(0.1044, 0.1008)
+texture = ExtResource("1_cifeu")
+script = ExtResource("2_ki27h")
+
+[node name="Earth" type="Sprite2D" parent="."]
+position = Vector2(-2154.92, -2103.26)
+scale = Vector2(0.5882, 0.60462)
+texture = ExtResource("3_rt57q")
+script = ExtResource("2_ki27h")
+
+[node name="moon_earth" type="Sprite2D" parent="Earth"]
+position = Vector2(-968.206, -1164.04)
+scale = Vector2(0.579905, 0.594715)
+texture = ExtResource("4_2i638")
+script = ExtResource("2_ki27h")
+
+[node name="moon_earth2" type="Sprite2D" parent="Earth"]
+position = Vector2(-1238.97, 0.000976562)
+scale = Vector2(0.499243, 0.554588)
+texture = ExtResource("4_2i638")
+script = ExtResource("2_ki27h")
+
+[node name="Saturn" type="Sprite2D" parent="."]
+position = Vector2(904.923, -2597.83)
+scale = Vector2(0.513996, 0.592391)
+texture = ExtResource("5_34cve")
+script = ExtResource("2_ki27h")
+
+[node name="Mercury_g03_watermarked_2k" type="Sprite2D" parent="."]
+position = Vector2(3110.52, -1269.02)
+scale = Vector2(0.450105, 0.451793)
+texture = ExtResource("6_iat8s")
+script = ExtResource("2_ki27h")
+
+[node name="Jupiter" type="Sprite2D" parent="."]
+position = Vector2(3520.75, 1986.41)
+scale = Vector2(0.930845, 1.02433)
+texture = ExtResource("7_aehlh")
+script = ExtResource("2_ki27h")
+
+[node name="moon_j" type="Sprite2D" parent="Jupiter"]
+position = Vector2(-287.757, -984.207)
+scale = Vector2(0.293671, 0.305699)
+texture = ExtResource("4_2i638")
+script = ExtResource("2_ki27h")
+
+[node name="moon_j2" type="Sprite2D" parent="Jupiter"]
+position = Vector2(637.732, -594.238)
+scale = Vector2(0.30539, 0.323075)
+texture = ExtResource("4_2i638")
+script = ExtResource("2_ki27h")
+
+[node name="neptune" type="Sprite2D" parent="."]
+position = Vector2(-1534.75, 1986.41)
+scale = Vector2(0.716397, 0.801418)
+texture = ExtResource("8_wacc4")
+script = ExtResource("2_ki27h")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="Space" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2(745, 384)
+scale = Vector2(1.44901, 1.4584)
+texture = ExtResource("9_wn14j")

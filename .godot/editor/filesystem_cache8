@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1707420068
+10145465.png::CompressedTexture2D::7157674158529806104::1707417964::1707417965::1::::<><>::
+icon.svg::CompressedTexture2D::9045761867274934945::1707417688::1707417748::1::::<><>::
+Jupiter.G03.watermarked.2k.png::CompressedTexture2D::6780654305315108345::1707418473::1707418475::1::::<><>::
+Mercury planet or foreign planet -8.jpg::CompressedTexture2D::7640191279464663576::1707418099::1707418100::1::::<><>::
+Mercury planet or foreign planet -9 Small.png::CompressedTexture2D::2710428372847059069::1707418277::1707418278::1::::<><>::
+Mercury.G03.watermarked.2k.png::CompressedTexture2D::8699065202962170730::1707418420::1707418421::1::::<><>::
+Moon.G03.watermarked.2k.png::CompressedTexture2D::2536946261313919887::1707418558::1707418560::1::::<><>::
+pngimg.com - earth_PNG39.png::CompressedTexture2D::8418925911442477777::1707417957::1707417958::1::::<><>::
+Realistic Neptune Planet.G03.watermarked.2k.png::CompressedTexture2D::3120135858340434438::1707418510::1707418511::1::::<><>::
+node_2d.tscn::PackedScene::5078769185022361248::1707419949::0::1::::<><>::uid://dosl3yb31401f::::res://—Pngtree—realistic sun illustration_9164511.png<>uid://dr7gqkt0fhfrt::::res://pngimg.com - earth_PNG39.png<>res://Rotate.gd<>uid://bce6ethnv3xt4::::res://Moon.G03.watermarked.2k.png<>uid://c88h324yehgyy::::res://10145465.png<>uid://dv65lk5albl5k::::res://Mercury.G03.watermarked.2k.png<>uid://c3uund6hwhbb2::::res://Jupiter.G03.watermarked.2k.png<>uid://bkpoggcxonhys::::res://Realistic Neptune Planet.G03.watermarked.2k.png
+Earth.gd::GDScript::-1::1707419636::0::1::::<>Sprite2D<>::
+Rotate.gd::GDScript::-1::1707419752::0::1::::<>Node2D<>::
+space.jpeg::CompressedTexture2D::6917578947605813024::1707420068::1707420068::1::::<><>::
+—Pngtree—realistic sun illustration_9164511.png::CompressedTexture2D::8179783814147914789::1707417952::1707417954::1::::<><>::
